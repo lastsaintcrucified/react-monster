@@ -1,0 +1,19 @@
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.card-bd {
+  background-color: #e9ebec;
+  border-color: white;
+  border-radius: 10%;
+}
+.card {
+  transition: background-color 2s, transform 1s;
+}
+.card:hover {
+  background-color: #a8a8a8;
+  transform: scale(1.1);
+}
